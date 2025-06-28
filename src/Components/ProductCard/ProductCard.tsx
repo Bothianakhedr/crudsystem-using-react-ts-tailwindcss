@@ -1,6 +1,6 @@
-import type { IProduct } from "../interfaces/product";
+import type { IProduct } from "../interfaces";
 import ReusableImage from "../ReusableImage/ReusableImage";
-import Button from "../ui/Button";
+import Button from "../ui/ReusableButton/Button";
 
 interface IProps {
   product: IProduct;

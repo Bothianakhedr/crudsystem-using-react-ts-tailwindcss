@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
-import type { IProduct } from "../interfaces/product";
+import type { IFormInput, IProduct } from "../interfaces";
 
 export const productInfo: IProduct[] = [
   {
@@ -174,3 +174,32 @@ Indulge your senses with our captivating selection of perfumes, designed to leav
     },
   },
 ];
+
+
+
+export const formInput :IFormInput[] =[
+  {
+    id:"title",
+    name:"title",
+    label:"product Name",
+    type:"text",
+  },
+  {
+    id:"description",
+    name:"description",
+    label:"product description",
+    type:"text",
+  },
+  {
+    id:"image",
+    name:"ImageURL",
+    label:"product ImageURL",
+    type:"text",
+  },
+  {
+    id:"price",
+    name:"price",
+    label:"product price",
+    type:"text",
+  },
+]
