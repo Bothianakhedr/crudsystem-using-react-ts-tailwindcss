@@ -5,7 +5,7 @@ export const productInfo: IProduct[] = [
   {
     id: uuidv4(),
     title: "coco channel",
-    price: 120.0,
+    price: "120.0",
     imageURL:
       "https://images.unsplash.com/photo-1640975972263-1f73398e943b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29jbyUyMGNoYW5lbHxlbnwwfHwwfHx8MA%3D%3D",
     description: `
@@ -22,7 +22,7 @@ Indulge your senses with our captivating selection of perfumes, designed to leav
   {
     id: uuidv4(),
     title: "Casual Beige Flats",
-    price: 49.99,
+    price: "49.99",
     imageURL:
       "https://images.unsplash.com/photo-1727561141778-bf54e91fe23e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2hvc2UlMjBibGFja3xlbnwwfHwwfHx8MA%3D%3D",
     description:
@@ -38,7 +38,7 @@ Indulge your senses with our captivating selection of perfumes, designed to leav
   {
     id: uuidv4(),
     title: "Nike Air Max 270",
-    price: 199.99,
+    price: "199.99",
     imageURL:
       "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: `
@@ -55,7 +55,7 @@ Step into confidence with our exclusive range of shoes and sneakers, crafted to 
   {
     id: uuidv4(),
     title: "Adidas Ultraboost 22",
-    price: 179.99,
+    price: "179.99",
     imageURL:
       "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvc2V8ZW58MHx8MHx8fDA%3D",
     description: `
@@ -73,7 +73,7 @@ Step into confidence with our exclusive range of shoes and sneakers, crafted to 
   {
     id: uuidv4(),
     title: "Vintage Leather Shoulder Bag",
-    price: 199.0,
+    price: "199.0",
     imageURL:
       "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmFnfGVufDB8fDB8fHww",
     description: `
@@ -91,7 +91,7 @@ Discover the perfect blend of form and function with our stylish collection of h
   {
     id: uuidv4(),
     title: "MAC Matte Lipstick - Ruby Woo",
-    price: 24.99,
+    price: "24.99",
     imageURL:
       "https://images.unsplash.com/photo-1625093742435-6fa192b6fb10?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGlwc3RpY2t8ZW58MHx8MHx8fDA%3D",
     description: `Enhance your natural beauty with our expertly crafted makeup collection, featuring iconic shades and skin-loving formulas. From bold lipsticks to lightweight foundations, our products are made for all skin types and tones. Whether you're going for a subtle everyday glow or a dramatic evening look, our makeup is designed to empower and inspire. Long-lasting, blendable, and packed with pigment — every item is a must-have in your beauty routine. Be bold, be soft, be you.
@@ -107,7 +107,7 @@ Discover the perfect blend of form and function with our stylish collection of h
   {
     id: uuidv4(),
     title: "Maybelline Fit Me Foundation",
-    price: 14.99,
+    price: "14.99",
     imageURL:
       "https://images.unsplash.com/photo-1599733589046-10c005739ef9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Zm91bmRhdGlvbnxlbnwwfHwwfHx8MA%3D%3D",
     description: `Enhance your natural beauty with our expertly crafted makeup collection, featuring iconic shades and skin-loving formulas. From bold lipsticks to lightweight foundations, our products are made for all skin types and tones. Whether you're going for a subtle everyday glow or a dramatic evening look, our makeup is designed to empower and inspire. Long-lasting, blendable, and packed with pigment — every item is a must-have in your beauty routine. Be bold, be soft, be you.
@@ -123,7 +123,7 @@ Discover the perfect blend of form and function with our stylish collection of h
   {
     id: uuidv4(),
     title: "Michael Kors Jet Set Tote",
-    price: 249.99,
+    price: "249.99",
     imageURL:
       "https://plus.unsplash.com/premium_photo-1678739395192-bfdd13322d34?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: `
@@ -142,7 +142,7 @@ Discover the perfect blend of form and function with our stylish collection of h
   {
     id: uuidv4(),
     title: "Dior Sauvage Eau de Parfum",
-    price: 135.0,
+    price: "135.0",
     imageURL:
       "https://images.unsplash.com/photo-1616640045164-deb3b104c4b6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2F1dmFnZXxlbnwwfHwwfHx8MA%3D%3D",
     description: `
@@ -160,7 +160,7 @@ Indulge your senses with our captivating selection of perfumes, designed to leav
   {
     id: uuidv4(),
     title: "Elegant Black Heels",
-    price: 500,
+    price: "500",
     imageURL:
       "https://images.unsplash.com/photo-1610398752800-146f269dfcc8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGVlbHN8ZW58MHx8MHx8fDA%3D",
     description:
@@ -181,7 +181,7 @@ export const formInput :IFormInput[] =[
   {
     id:"title",
     name:"title",
-    label:"product Name",
+    label:"product title",
     type:"text",
   },
   {
@@ -192,8 +192,8 @@ export const formInput :IFormInput[] =[
   },
   {
     id:"image",
-    name:"ImageURL",
-    label:"product ImageURL",
+    name:"imageURL",
+    label:"product imageURL",
     type:"text",
   },
   {

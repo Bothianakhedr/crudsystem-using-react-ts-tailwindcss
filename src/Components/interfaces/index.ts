@@ -4,7 +4,7 @@ export interface IProduct {
   description: string;
   color: string[];
   imageURL: string;
-  price: number;
+  price: string;
   category: {
     name: string;
     imageURL: string;
@@ -15,5 +15,5 @@ export interface IFormInput {
   label: string;
   type: string;
   id: string;
-  name: string;
+  name:  "title" | "description" | "price"  |"imageURL";
 }
